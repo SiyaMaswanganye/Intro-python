@@ -84,6 +84,5 @@ primes = [2, 3, 5, 7]
 sprimes=[]
 for p in primes:
     sprimes.extend([p**2])
-print(sprimes)
-
+    
 
