@@ -85,4 +85,39 @@ sprimes=[]
 for p in primes:
     sprimes.extend([p**2])
 
+n = 9
+for i in range(0, n, 2): #the range function has range(start, stop, step) the stop is not inclusive, so its better to constantly icrement it relative to the value you wanted to include
+    p = i + 2
+    print ((i,p))
+
+#While loop 
+
+whileloop = 5 
+while whileloop < 10: #while loops are used for complex conditions and has a high possibility of not terminating, eg when you don't increment 
+    print(whileloop)
+    whileloop += 1  
+count = 0 
+while True: #this way will always recognise the first value before the condition
+    print(count)
+    count += 1
+    if count >= 5:
+        break
+print(lists)
+for i in lists: #This is how we would apply our loops in our lists
+    print(i)
+    if i == 'jake': #this will break after jake has been reached and if "or i == 3.14" was included then the loop would terminate after 3.14
+        break
+
+count2 = 0
+while count2 < 5: 
+    print (count2)
+    count2 += 1
+else: #This can be used to add info as the loop ends and "%d" and %(variable), can be used to insert values of the loops at the point of termination 
+    print("The value has been reached %d" %(count2))
+
+#If we want to exclude some letters in a word 
+for letter in 'SiyandaMaswanganye':
+    if letter == 's' or letter == 'a': #it will print all of the letters except s and a, note that it is very case sensetive 
+        continue #if we had used break, we would've stopped the loop at Siy
+    print("The letters are:", letter)
 
