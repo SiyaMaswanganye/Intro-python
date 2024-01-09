@@ -121,3 +121,14 @@ for letter in 'SiyandaMaswanganye':
         continue #if we had used break, we would've stopped the loop at Siy
     print("The letters are:", letter)
 
+
+## Contional Statements 
+    #There are 3 conditional statements, "if", "else", "elif"
+
+n = 4
+p= 12 
+if n>3:
+    w= n*4
+    print(w)
+a= w/4
+print(a) #this print function only ran because the condition was met for the existance of w
