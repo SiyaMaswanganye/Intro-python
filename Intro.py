@@ -1,11 +1,11 @@
 import numpy as np
-
+# to make all comments we select all, then backslash "/"
 lists = ["siya", 3.676, True ]
 print(lists)
 print(type(lists))
 lists.extend(["jake", 3.14])
 print(lists)
-
+lists.append("Andile") #this is used to add only one item onto the list rather, and to add more you'd have to create list inside the list
 tuples = ("siya", 3.32)
 print(tuples)
 print(type(tuples))
@@ -84,5 +84,5 @@ primes = [2, 3, 5, 7]
 sprimes=[]
 for p in primes:
     sprimes.extend([p**2])
-    
+
 
