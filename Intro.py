@@ -132,3 +132,86 @@ if n>3:
     print(w)
 a= w/4
 print(a) #this print function only ran because the condition was met for the existance of w
+
+if n > 0:
+    print("The number is Positive")
+else: 
+    print("The number is negative")
+
+someword = "Hello Jake"
+ourletter = "w"
+
+if ourletter in someword:
+    print("The word contains the letter", ourletter)
+else:
+    print("the word does not contain the letter", ourletter)
+
+i = 0
+if i > 0:
+    print("The number is positive")
+elif i ==0 :
+    print("The number is zero")
+else:
+    print("The number is negative")
+
+Grades = 36
+if Grades >= 90:
+    print("Student got a level 7")
+elif Grades >= 70:
+    print("Student got a level 6")
+elif Grades >=60:
+    print("Student got a level 5")
+elif Grades >= 50:
+    print("Student got a level 4")
+elif Grades >= 40:
+    print("Student got a level 3")
+elif Grades >= 30:
+    print("Student got a level 2")
+else: 
+    print("Student got a level 1")
+
+print(type("SiyandaKB"))
+print(type(3.123))
+
+
+#String operations 
+st = "Hello # World"
+print(st.lower ()) #lower cases
+print(st.upper()) #Upper cases
+print(st.split())  #splits the words of the string
+print(st.split("#")) #splits the words and minuses the selected letter/word
+print(st.split('#')[1]) #helps us print things before 0 or after 1 the metonioned letter or word
+
+#Array 
+ourarray = np.arange(15) #the 'arange' is used to create a array of whatever list of values
+print(ourarray) #arange(start(optional and 'end' will be considers if one value inserted), end(exclusive and always necessary), step(the steps of each array), dtype= None (data type))
+print(ourarray.shape) #how many elements are in the array 
+
+print(ourarray.reshape(15, 1)) # this wil be a matrix of 15*1 which has 15 rows and 1 column
+print(ourarray.reshape(5, 3))
+
+print(np.sqrt(ourarray).reshape(5,3)) # This will provide the square roots of our array
+print(np.exp(ourarray).reshape(5, 3)) # This will e^ all of the elements of our array 
+print(np.max(ourarray)) # The maximum value in our array 
+print(np.sin(ourarray).reshape(5, 3)) # This will provide a sine function for each element in our array
+print(np.log(ourarray).reshape(5,3))
+print(ourarray.std()) #This finds the standard deviation of our array
+
+#Creating an array of any numbers np.'the numebr' eg, np.twos(4) is [2.2.2.2.]
+Zeros = np.zeros(4)
+print(Zeros)
+print(np.ones(5))
+
+fives = np.ones(4) * 5
+print(fives)
+
+newmatrix = np.eye(3) #this creates an identity matrix and the input value tells us the dimentions of the matrix
+print(newmatrix)
+
+#extra work
+name = "Andile" 
+numeber = 18
+print("His name is: {}, and his age is:{}".format(name, numeber)) #This could be used for dictionaries
+
+print('x' in ['x', 'y', 'z']) # we can find out if the letter is in a list 
+print('Andile' in lists)
