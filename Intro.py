@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd 
 # to make all comments we select all, then backslash "/"
 lists = ["siya", 3.676, True ]
 print(lists)
