@@ -15,7 +15,7 @@ additionOfSeries = firstseries + secondseries
 print(additionOfSeries)
 print('addition of series is above')
 print( firstseries['Siya'])
-print('the first series is above')
+print('the first series releasing Siya specifically is above')
 print(pd.Series(lists2, lists))
 print(pd.Series(arr))
 print(pd.Series(arr, lists))
