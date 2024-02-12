@@ -183,7 +183,7 @@ print(st.split())  #splits the words of the string
 print(st.split("#")) #splits the words and minuses the selected letter/word
 print(st.split('#')[1]) #helps us print things before 0 or after 1 the metonioned letter or word
 
-#Array 
+#Arrays 
 ourarray = np.arange(15) #the 'arange' is used to create a array of whatever list of values
 print(ourarray) #arange(start(optional and 'end' will be considers if one value inserted), end(exclusive and always necessary), step(the steps of each array), dtype= None (data type))
 print(ourarray.shape) #how many elements are in the array 
